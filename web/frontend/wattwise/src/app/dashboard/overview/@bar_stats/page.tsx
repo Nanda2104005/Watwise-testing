@@ -1,8 +1,4 @@
-import { delay } from '@/constants/mock-api';
-import { BarGraph } from '@/features/overview/components/bar-graph';
-
+import { VoltageBarChart } from '@/components/voltage-bar-chart';
 export default async function BarStats() {
-  await await delay(1000);
-
-  return <BarGraph />;
+  return <VoltageBarChart />;
 }
